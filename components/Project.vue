@@ -26,7 +26,7 @@
     const supabase = useSupabaseClient()
     const {data: porto, error} = await supabase.from('portofolio').select('*'); 
 
-    console.log(porto);
+    // console.log(porto);
 
     // const data = [
     //     {
